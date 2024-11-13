@@ -1,0 +1,19 @@
+[
+    {
+        "id": "base",
+        "routes": [
+            "get-user-groups-paginated:success",
+            "get-user-groups-paginated:empty",
+            "get-user-group:success",
+            "get-user-group:not-found",
+            "create-user-groups:success",
+            "update-user-groups:success",
+            "delete-user-groups:success"
+        ]
+    },
+    {
+        "id": "alternative",
+        "routes": ["get-user-groups-paginated:success"],
+        "from": "base"
+    }
+]
