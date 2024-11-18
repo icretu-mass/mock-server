@@ -71,16 +71,16 @@ module.exports = [
 						const body = req.body
 						const { userGroupIds } = body
 
-						const todoRes = [userGroups.find((userGroup) => userGroupIds.includes(userGroup.id))]
+						const userGroupRes = [userGroups.find((userGroup) => userGroupIds.includes(userGroup.id))]
 
 						res.status(200)
-						res.send(todoRes)
+						res.send(userGroupRes)
 					}
 				}
 			},
 			{
 				id: "not-found", // id of the variant
-				type: "json", // variant type
+				type: "status", // variant type
 				options: {
 					status: 404
 				}

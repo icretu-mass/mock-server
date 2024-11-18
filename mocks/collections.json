@@ -2,18 +2,19 @@
     {
         "id": "base",
         "routes": [
-            "get-user-groups-paginated:success",
-            "get-user-groups-paginated:empty",
-            "get-user-group:success",
-            "get-user-group:not-found",
-            "create-user-groups:success",
-            "update-user-groups:success",
-            "delete-user-groups:success"
-        ]
+					"get-user-groups-paginated:success",
+					"get-user-group:success",
+					"create-user-groups:success",
+					"update-user-groups:success",
+					"delete-user-groups:success",
+					"get-users-paginated:success",
+					"get-user:success",
+					"delete-user:success"
+				]
     },
     {
-        "id": "alternative",
-        "routes": ["get-user-groups-paginated:success"],
+        "id": "empty",
+        "routes": ["get-user-groups-paginated:empty", "get-user-group:not-found", "get-users-paginated:empty", "get-user:not-found"],
         "from": "base"
     }
 ]
