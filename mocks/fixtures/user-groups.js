@@ -1,7 +1,7 @@
 module.exports = [
 	{
 		id: "1",
-		externalGroupId: "1",
+		externalGroupIds: ["case_mgr", "account_mgr"],
 		name: "Account manager",
 		description:
 			"Account manager are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -12,7 +12,7 @@ module.exports = [
 	},
 	{
 		id: "2",
-		externalGroupId: "2",
+		externalGroupIds: ["2"],
 		name: "Business system administrator",
 		description:
 			"Business system administrator are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -23,7 +23,7 @@ module.exports = [
 	},
 	{
 		id: "3",
-		externalGroupId: "3",
+		externalGroupIds: ["3"],
 		name: "Auditor",
 		description:
 			"Auditors are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -34,7 +34,7 @@ module.exports = [
 	},
 	{
 		id: "4",
-		externalGroupId: "4",
+		externalGroupIds: ["4"],
 		name: "Case manager",
 		description:
 			"Case managers are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -45,7 +45,7 @@ module.exports = [
 	},
 	{
 		id: "5",
-		externalGroupId: "5",
+		externalGroupIds: ["5"],
 		name: "Delivery / 1035",
 		description:
 			"Delivery / 1035 are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -56,7 +56,7 @@ module.exports = [
 	},
 	{
 		id: "6",
-		externalGroupId: "6",
+		externalGroupIds: ["6"],
 		name: "Info Specialist",
 		description:
 			"Info Specialist are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -67,7 +67,7 @@ module.exports = [
 	},
 	{
 		id: "7",
-		externalGroupId: "7",
+		externalGroupIds: ["7"],
 		name: "IPM team",
 		description:
 			"IPM team are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -78,7 +78,7 @@ module.exports = [
 	},
 	{
 		id: "8",
-		externalGroupId: "8",
+		externalGroupIds: ["8"],
 		name: "Life BA team",
 		description:
 			"Life BA team are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -89,7 +89,7 @@ module.exports = [
 	},
 	{
 		id: "9",
-		externalGroupId: "9",
+		externalGroupIds: ["9"],
 		name: "New business operations support",
 		description:
 			"New business operations support are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -100,7 +100,7 @@ module.exports = [
 	},
 	{
 		id: "10",
-		externalGroupId: "10",
+		externalGroupIds: ["10"],
 		name: "New business view only",
 		description:
 			"New business view only are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -111,7 +111,7 @@ module.exports = [
 	},
 	{
 		id: "11",
-		externalGroupId: "11",
+		externalGroupIds: ["11"],
 		name: "NonUnderwriting directors",
 		description:
 			"NonUnderwriting directors are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -122,7 +122,7 @@ module.exports = [
 	},
 	{
 		id: "12",
-		externalGroupId: "12",
+		externalGroupIds: ["12"],
 		name: "PHI team",
 		description:
 			"PHI team are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -133,7 +133,7 @@ module.exports = [
 	},
 	{
 		id: "13",
-		externalGroupId: "13",
+		externalGroupIds: ["13"],
 		name: "Manager",
 		description:
 			"Managers are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -144,7 +144,7 @@ module.exports = [
 	},
 	{
 		id: "14",
-		externalGroupId: "14",
+		externalGroupIds: ["14"],
 		name: "Relationship manager",
 		description:
 			"Relationship manager are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -155,7 +155,7 @@ module.exports = [
 	},
 	{
 		id: "15",
-		externalGroupId: "15",
+		externalGroupIds: ["15"],
 		name: "Medical officer",
 		description:
 			"Medical officers are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -166,7 +166,7 @@ module.exports = [
 	},
 	{
 		id: "16",
-		externalGroupId: "16",
+		externalGroupIds: ["16"],
 		name: "Underwriter",
 		description:
 			"Underwriters are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -177,7 +177,7 @@ module.exports = [
 	},
 	{
 		id: "17",
-		externalGroupId: "17",
+		externalGroupIds: ["17"],
 		name: "Underwriter auditor",
 		description:
 			"Underwriter auditor are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",
@@ -188,7 +188,7 @@ module.exports = [
 	},
 	{
 		id: "18",
-		externalGroupId: "18",
+		externalGroupIds: ["18"],
 		name: "Underwriting directors",
 		description:
 			"Underwriting directors are responsible for evaluating risk and determining the underwriting decision for cases that are assigned to them.",

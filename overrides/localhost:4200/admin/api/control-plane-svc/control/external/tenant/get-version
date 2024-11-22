@@ -1,0 +1,220 @@
+{
+  "data": {
+    "branding": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "6f1a5bc9-d4cd-4a91-b9c2-78c8a1191eac"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "000fc77d-2da6-42de-af19-6912c3c6b768"
+      }
+    ],
+    "datasets": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "9db5b650-dd78-4066-8664-5bdf637ef88f"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "60758d97-a47d-4d92-89ab-10bf6beae632"
+      }
+    ],
+    "features": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "9d809c06-5d97-4ec9-b608-2a316c452769"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "47582ab6-08d5-42e9-aaec-65280d881d2d"
+      }
+    ],
+    "views": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "500a0c7b-b7a8-4844-9314-10f70face25d"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "243b53e2-fdde-4b34-8c30-bde3c4921af3"
+      }
+    ],
+    "custom_fields": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "1eab6546-128d-45cd-8608-5ab7897643e3"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "5eaa8a6d-78b0-4ec4-a580-3dbe994bcdc3"
+      }
+    ],
+    "third_party_data_sources": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "594df537-638c-41eb-aa20-52d44dc86b0e"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "ac461559-03b2-41b4-b528-b5fc677d0df6"
+      }
+    ],
+    "product_specifications": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "f66d013c-67c7-481f-8096-52853465def8"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "3e7e8616-7ac9-4db0-8c1e-3e91709ccb20"
+      }
+    ],
+    "underwriting_rules_manager": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "d6a6f945-6a21-4f70-832e-d2a208a9c63a"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "2d84e195-bb38-450b-9e40-5b6d7b9b2ea6"
+      }
+    ],
+    "workflow": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "7018e7fb-7c94-415c-896a-79f6c831052f"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "c5ef40e5-ede3-45c8-a1af-7f0e7d7b0b01"
+      }
+    ],
+    "document_service": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "eeb8a254-9781-48f6-8df2-26ed1f849698"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "9ab8f2c1-4dbe-43ef-ba08-c9198817e1f8"
+      }
+    ],
+    "tasks": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "1ad77a72-176e-4626-9f3c-d40bd0caca4d"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "5ad386f9-6ff1-4dbe-b909-434bb910964c"
+      }
+    ],
+    "entity_metadata": [
+      {
+        "key": "latest",
+        "name": "Latest Version",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "latest",
+        "effectiveDate": null,
+        "id": "165ef632-4e19-45c8-b38f-ef24a67aef73"
+      },
+      {
+        "key": "v1",
+        "name": "v1",
+        "updatedAt": "2024-09-05T13:45:14.981Z",
+        "description": "v1",
+        "effectiveDate": null,
+        "id": "79965675-b751-4e5d-8e26-9e15633558eb"
+      }
+    ]
+  }
+}

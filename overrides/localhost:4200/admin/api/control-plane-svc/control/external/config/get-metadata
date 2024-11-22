@@ -1,0 +1,542 @@
+{
+  "data": {
+    "branding": {
+      "navigation_bar": [
+        {
+          "key": "bar_color",
+          "id": "0191c26e-87a0-777a-9a3d-765856af25c4",
+          "repo": "portal",
+          "title": "Navigation Bar Color",
+          "description": "Primary Button Color",
+          "isSecret": false,
+          "defaultValue": "#FFFFFF",
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "format": "color",
+          "type": "string",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z"
+        },
+        {
+          "key": "bar_text_color",
+          "id": "0191c26e-8829-777a-9a3d-7d0a47e618d1",
+          "repo": "portal",
+          "title": "Navigation Bar Text Color",
+          "description": "Primary Button Color",
+          "isSecret": false,
+          "defaultValue": "#0000FF",
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "format": "color",
+          "type": "string",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z"
+        },
+        {
+          "key": "help_link",
+          "id": "0191c26e-893b-777a-9a3d-8d9ec92130fa",
+          "repo": "portal",
+          "title": "Help link",
+          "description": "Toggles the display fo the help link on the navigation bar",
+          "isSecret": false,
+          "defaultValue": true,
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "type": "boolean",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z"
+        },
+        {
+          "key": "logo_url",
+          "id": "0191c26e-88b2-777a-9a3d-8432a160aa96",
+          "repo": "portal",
+          "title": "Primary logo",
+          "description": "Primary logo URL",
+          "isSecret": false,
+          "defaultValue": "https://static.wikia.nocookie.net/heroes-of-the-characters/images/0/0b/DennisHD.v2.jpg/revision/latest/scale-to-width-down/1000?cb=20200806050341",
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "format": "url",
+          "type": "string",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z"
+        },
+        {
+          "key": "primary_btn_color",
+          "id": "0191c26e-8717-777a-9a3d-6b0afb480063",
+          "repo": "portal",
+          "title": "Primary Button Color",
+          "description": "Primary Button Color",
+          "isSecret": false,
+          "defaultValue": "#000000",
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "format": "color",
+          "type": "string",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z"
+        },
+        {
+          "key": "product_name",
+          "id": "0191c26e-868e-777a-9a3d-6460faac0b92",
+          "repo": "portal",
+          "title": "Product name",
+          "description": "Text displayed on navigation bar",
+          "isSecret": false,
+          "defaultValue": "Underwriting Portal",
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "type": "string",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z"
+        }
+      ]
+    },
+    "tasks": {
+      "followups": [
+        {
+          "key": "followup_doc_list",
+          "id": "0191c26e-8e96-777a-9a3d-dfb362880d10",
+          "repo": "followups",
+          "title": "Followups Documents",
+          "description": "Followups documents list",
+          "isSecret": false,
+          "defaultValue": null,
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "type": "array",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z",
+          "$items": {
+            "id": "0191c26e-8f24-777a-9a3d-e6a4fafa6058",
+            "repo": "followups",
+            "title": "",
+            "description": "",
+            "isSecret": false,
+            "defaultValue": null,
+            "showInUi": true,
+            "defaultVisibility": "ALL",
+            "type": "object",
+            "createdAt": "2024-09-05T13:45:08.852Z",
+            "updatedAt": "2024-09-05T13:45:08.852Z",
+            "$properties": [
+              {
+                "key": "followup_doc_title",
+                "id": "0191c26e-8fad-777a-9a3d-ed0116fc306e",
+                "repo": "followups",
+                "title": "Followup Document Title",
+                "description": "Title of Followup",
+                "isSecret": false,
+                "defaultValue": null,
+                "showInUi": true,
+                "defaultVisibility": "ALL",
+                "type": "string",
+                "createdAt": "2024-09-05T13:45:08.852Z",
+                "updatedAt": "2024-09-05T13:45:08.852Z"
+              },
+              {
+                "key": "followup_doc_url",
+                "id": "0191c26e-9036-777a-9a3d-f6c86a327187",
+                "repo": "followups",
+                "title": "Followup Document Url",
+                "description": "Document Url",
+                "isSecret": false,
+                "defaultValue": null,
+                "showInUi": true,
+                "defaultVisibility": "ALL",
+                "format": "url",
+                "type": "string",
+                "createdAt": "2024-09-05T13:45:08.852Z",
+                "updatedAt": "2024-09-05T13:45:08.852Z"
+              }
+            ]
+          }
+        },
+        {
+          "key": "followup_shq_list",
+          "id": "0191c26e-8bea-777a-9a3d-b73a0ab9f1df",
+          "repo": "followups",
+          "title": "",
+          "description": "Followups",
+          "isSecret": false,
+          "defaultValue": null,
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "type": "array",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z",
+          "$items": {
+            "id": "0191c26e-8c72-777a-9a3d-bac272275f9f",
+            "repo": "followups",
+            "title": "",
+            "description": "",
+            "isSecret": false,
+            "defaultValue": null,
+            "showInUi": true,
+            "defaultVisibility": "ALL",
+            "type": "object",
+            "render": {
+              "type": "card"
+            },
+            "createdAt": "2024-09-05T13:45:08.852Z",
+            "updatedAt": "2024-09-05T13:45:08.852Z",
+            "$properties": [
+              {
+                "key": "followup_question_list",
+                "id": "0191c26e-8d83-777a-9a3d-ccc6f0da8aa1",
+                "repo": "followups",
+                "title": "Questions",
+                "description": "Questions list",
+                "isSecret": false,
+                "defaultValue": null,
+                "showInUi": true,
+                "defaultVisibility": "ALL",
+                "type": "array",
+                "render": {
+                  "type": "accordion",
+                  "sortOrder": 1
+                },
+                "createdAt": "2024-09-05T13:45:08.852Z",
+                "updatedAt": "2024-09-05T13:45:08.852Z",
+                "$items": {
+                  "id": "0191c26e-8e0d-777a-9a3d-d1ed944f947b",
+                  "repo": "followups",
+                  "title": "",
+                  "description": "",
+                  "isSecret": false,
+                  "defaultValue": null,
+                  "showInUi": true,
+                  "defaultVisibility": "ALL",
+                  "type": "string",
+                  "render": {
+                    "type": "ul"
+                  },
+                  "createdAt": "2024-09-05T13:45:08.852Z",
+                  "updatedAt": "2024-09-05T13:45:08.852Z"
+                }
+              },
+              {
+                "key": "followup_title",
+                "id": "0191c26e-8cfb-777a-9a3d-c1154bbf9893",
+                "repo": "followups",
+                "title": "Questionnaire Title",
+                "description": "",
+                "isSecret": false,
+                "defaultValue": null,
+                "showInUi": true,
+                "defaultVisibility": "ALL",
+                "type": "string",
+                "render": {
+                  "params": {
+                    "class": "card-title"
+                  },
+                  "sortOrder": 0
+                },
+                "createdAt": "2024-09-05T13:45:08.852Z",
+                "updatedAt": "2024-09-05T13:45:08.852Z"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "third_party_data_sources": {
+      "TX103": [
+        {
+          "key": "configs",
+          "id": "0191c26e-90be-777a-9a3d-f97dd6e2b46a",
+          "repo": "svc-data-ingestion",
+          "title": "",
+          "description": "Contracts",
+          "isSecret": false,
+          "defaultValue": null,
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "type": "object",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z",
+          "$properties": [
+            {
+              "key": "jsonata_config",
+              "id": "0191c26e-9590-777a-9a3e-41ea4498a549",
+              "repo": "svc-data-ingestion",
+              "title": "JSONATA Configs",
+              "description": "Transformation file",
+              "isSecret": false,
+              "defaultValue": null,
+              "showInUi": true,
+              "defaultVisibility": "ALL",
+              "type": "string",
+              "render": {
+                "type": "file"
+              },
+              "createdAt": "2024-09-05T13:45:08.852Z",
+              "updatedAt": "2024-09-05T13:45:08.852Z"
+            },
+            {
+              "key": "source_schemas",
+              "id": "0191c26e-9146-777a-9a3e-00680843346e",
+              "repo": "svc-data-ingestion",
+              "title": "Source Schema",
+              "description": "Source schema list",
+              "isSecret": false,
+              "defaultValue": null,
+              "showInUi": true,
+              "defaultVisibility": "ALL",
+              "type": "array",
+              "createdAt": "2024-09-05T13:45:08.852Z",
+              "updatedAt": "2024-09-05T13:45:08.852Z",
+              "$items": {
+                "id": "0191c26e-91ce-777a-9a3e-093c58eae307",
+                "repo": "svc-data-ingestion",
+                "title": "",
+                "description": "",
+                "isSecret": false,
+                "defaultValue": null,
+                "showInUi": true,
+                "defaultVisibility": "ALL",
+                "type": "object",
+                "render": {
+                  "type": "card"
+                },
+                "createdAt": "2024-09-05T13:45:08.852Z",
+                "updatedAt": "2024-09-05T13:45:08.852Z",
+                "$properties": [
+                  {
+                    "key": "file_content",
+                    "id": "0191c26e-92e1-777a-9a3e-1abedcda4f3d",
+                    "repo": "svc-data-ingestion",
+                    "title": "",
+                    "description": "",
+                    "isSecret": false,
+                    "defaultValue": null,
+                    "showInUi": true,
+                    "defaultVisibility": "ALL",
+                    "type": "string",
+                    "render": {
+                      "type": "file"
+                    },
+                    "createdAt": "2024-09-05T13:45:08.852Z",
+                    "updatedAt": "2024-09-05T13:45:08.852Z"
+                  },
+                  {
+                    "key": "file_name",
+                    "id": "0191c26e-9257-777a-9a3e-15325bdf13de",
+                    "repo": "svc-data-ingestion",
+                    "title": "Source schema file name",
+                    "description": "",
+                    "isSecret": false,
+                    "defaultValue": null,
+                    "showInUi": true,
+                    "defaultVisibility": "ALL",
+                    "type": "string",
+                    "createdAt": "2024-09-05T13:45:08.852Z",
+                    "updatedAt": "2024-09-05T13:45:08.852Z"
+                  }
+                ]
+              }
+            },
+            {
+              "key": "target_schemas",
+              "id": "0191c26e-9369-777a-9a3e-221d2a36ec3f",
+              "repo": "svc-data-ingestion",
+              "title": "Target Schema",
+              "description": "Target schema list",
+              "isSecret": false,
+              "defaultValue": null,
+              "showInUi": true,
+              "defaultVisibility": "NONE",
+              "type": "array",
+              "createdAt": "2024-09-05T13:45:08.852Z",
+              "updatedAt": "2024-09-05T13:45:08.852Z",
+              "$items": {
+                "id": "0191c26e-93f1-777a-9a3e-2f8250d5a2db",
+                "repo": "svc-data-ingestion",
+                "title": "",
+                "description": "",
+                "isSecret": false,
+                "defaultValue": null,
+                "showInUi": true,
+                "defaultVisibility": "NONE",
+                "type": "object",
+                "render": {
+                  "type": "card"
+                },
+                "createdAt": "2024-09-05T13:45:08.852Z",
+                "updatedAt": "2024-09-05T13:45:08.852Z",
+                "$properties": [
+                  {
+                    "key": "file_content",
+                    "id": "0191c26e-9503-777a-9a3e-3c1cc1052f21",
+                    "repo": "svc-data-ingestion",
+                    "title": "",
+                    "description": "",
+                    "isSecret": false,
+                    "defaultValue": null,
+                    "showInUi": true,
+                    "defaultVisibility": "NONE",
+                    "type": "string",
+                    "render": {
+                      "type": "file"
+                    },
+                    "createdAt": "2024-09-05T13:45:08.852Z",
+                    "updatedAt": "2024-09-05T13:45:08.852Z"
+                  },
+                  {
+                    "key": "file_name",
+                    "id": "0191c26e-947b-777a-9a3e-32192dd6a58c",
+                    "repo": "svc-data-ingestion",
+                    "title": "Target schema file name",
+                    "description": "",
+                    "isSecret": false,
+                    "defaultValue": null,
+                    "showInUi": true,
+                    "defaultVisibility": "NONE",
+                    "type": "string",
+                    "createdAt": "2024-09-05T13:45:08.852Z",
+                    "updatedAt": "2024-09-05T13:45:08.852Z"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "product_specifications": {
+      "product_one": {
+        "info": {
+          "first": {
+            "term": "10 years",
+            "title": "something"
+          },
+          "other": {
+            "term": "10 years",
+            "title": "something else"
+          }
+        }
+      }
+    },
+    "views": {
+      "manager_view": [
+        {
+          "key": "case_pipeline",
+          "id": "0191c26e-89c4-777a-9a3d-92f15604b8a0",
+          "repo": "portal",
+          "title": "Case Pipeline",
+          "description": "",
+          "isSecret": false,
+          "defaultValue": null,
+          "showInUi": true,
+          "defaultVisibility": "ALL",
+          "type": "object",
+          "createdAt": "2024-09-05T13:45:08.852Z",
+          "updatedAt": "2024-09-05T13:45:08.852Z",
+          "$properties": [
+            {
+              "key": "breakdown",
+              "id": "0191c26e-8b61-777a-9a3d-a879980fa9b8",
+              "repo": "portal",
+              "title": "Breakdown",
+              "description": "Choose breakdown",
+              "isSecret": false,
+              "defaultValue": "sla",
+              "showInUi": true,
+              "defaultVisibility": "ALL",
+              "type": "array",
+              "render": {
+                "type": "radiogroup"
+              },
+              "$options": [
+                {
+                  "value": "sla",
+                  "display": "SLA"
+                },
+                {
+                  "value": "tasks",
+                  "display": "Tasks"
+                },
+                {
+                  "value": "category",
+                  "display": "Category"
+                }
+              ],
+              "createdAt": "2024-09-05T13:45:08.852Z",
+              "updatedAt": "2024-09-05T13:45:08.852Z"
+            },
+            {
+              "key": "filters",
+              "id": "0191c26e-8a4d-777a-9a3d-9f90db78466b",
+              "repo": "portal",
+              "title": "Filters",
+              "description": "Set case pipeline filters",
+              "isSecret": false,
+              "defaultValue": "product",
+              "showInUi": true,
+              "defaultVisibility": "ALL",
+              "type": "array",
+              "render": {
+                "type": "checkboxlist"
+              },
+              "$options": [
+                {
+                  "value": "work_item_category",
+                  "display": "Work item category"
+                },
+                {
+                  "value": "product",
+                  "display": "Product"
+                },
+                {
+                  "value": "line_of_business",
+                  "display": "Line of business"
+                },
+                {
+                  "value": "underwriting_program",
+                  "display": "Underwriting program"
+                },
+                {
+                  "value": "distribution_channel",
+                  "display": "Distribution channel"
+                }
+              ],
+              "createdAt": "2024-09-05T13:45:08.852Z",
+              "updatedAt": "2024-09-05T13:45:08.852Z"
+            },
+            {
+              "key": "summary",
+              "id": "0191c26e-8ad7-777a-9a3d-a6ea70c89496",
+              "repo": "portal",
+              "title": "Summary",
+              "description": "Choose summary",
+              "isSecret": false,
+              "defaultValue": "sla",
+              "showInUi": true,
+              "defaultVisibility": "ALL",
+              "type": "array",
+              "render": {
+                "type": "radiogroup"
+              },
+              "$options": [
+                {
+                  "value": "sla",
+                  "display": "SLA"
+                },
+                {
+                  "value": "tasks",
+                  "display": "Tasks"
+                },
+                {
+                  "value": "category",
+                  "display": "Category"
+                }
+              ],
+              "createdAt": "2024-09-05T13:45:08.852Z",
+              "updatedAt": "2024-09-05T13:45:08.852Z"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

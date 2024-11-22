@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "name": "prod",
+      "id": "bcdef-abcdef-abcdef-abcde",
+      "hostname": "mm-prod.haventechnologies.com",
+      "subdomain": "sandbox",
+      "customerId": "abcdef-abcdef-abcdef-abcdef",
+      "typeId": "96457c21-cc64-4030-8890-ddea11067b07",
+      "statusId": "0191c26d-801a-7ccb-929a-4a83d60db26f",
+      "createdAt": "2024-09-05T13:45:13.994Z",
+      "updatedAt": "2024-09-05T13:45:13.994Z",
+      "customer": {
+        "id": "abcdef-abcdef-abcdef-abcdef",
+        "name": "MassMutual",
+        "subdomain": "massmutual",
+        "createdAt": "2024-09-05T13:45:13.428Z",
+        "updatedAt": "2024-09-05T13:45:13.428Z"
+      },
+      "type": {
+        "id": "96457c21-cc64-4030-8890-ddea11067b07",
+        "name": "production",
+        "createdAt": "2024-05-05",
+        "updatedAt": "2024-05-05"
+      },
+      "status": {
+        "id": "7f6a85c2-080a-4f74-9bf8-c115fc473449",
+        "name": "active",
+        "createdAt": "2024-05-05",
+        "updatedAt": "2024-05-05"
+      }
+    },
+    {
+      "name": "uat",
+      "id": "bcdef-abcdef-abcdef-asdsad",
+      "hostname": "mm-uat.haventechnologies.com",
+      "subdomain": "sandbox",
+      "customerId": "abcdef-abcdef-abcdef-abcdef",
+      "typeId": "96457c21-cc64-4030-8890-ddea11067b07",
+      "statusId": "0191c26d-801a-7ccb-929a-4a83d60db26f",
+      "createdAt": "2024-09-05T13:45:13.994Z",
+      "updatedAt": "2024-09-05T13:45:13.994Z",
+      "customer": {
+        "id": "abcdef-abcdef-abcdef-abcdef",
+        "name": "MassMutual",
+        "subdomain": "massmutual",
+        "createdAt": "2024-09-05T13:45:13.428Z",
+        "updatedAt": "2024-09-05T13:45:13.428Z"
+      },
+      "type": {
+        "id": "3f701cd8-487f-4900-b279-1fc9cf21f60a",
+        "name": "staging",
+        "createdAt": "2024-05-05",
+        "updatedAt": "2024-05-05"
+      },
+      "status": {
+        "id": "7f6a85c2-080a-4f74-9bf8-c115fc473449",
+        "name": "active",
+        "createdAt": "2024-05-05",
+        "updatedAt": "2024-05-05"
+      }
+    },
+    {
+      "name": "development",
+      "id": "ab587s-efab927-38bc12-bs12gs",
+      "hostname": "mm-development.haventechnologies.com",
+      "subdomain": "sandbox",
+      "customerId": "abcdef-abcdef-abcdef-abcdef",
+      "typeId": "96457c21-cc64-4030-8890-ddea11067b07",
+      "statusId": "0191c26d-801a-7ccb-929a-4a83d60db26f",
+      "createdAt": "2024-09-05T13:45:13.994Z",
+      "updatedAt": "2024-09-05T13:45:13.994Z",
+      "customer": {
+        "id": "abcdef-abcdef-abcdef-abcdef",
+        "name": "MassMutual",
+        "subdomain": "massmutual",
+        "createdAt": "2024-09-05T13:45:13.428Z",
+        "updatedAt": "2024-09-05T13:45:13.428Z"
+      },
+      "type": {
+        "id": "3f701cd8-487f-4900-b279-1fc9cf21f60a",
+        "name": "staging",
+        "createdAt": "2024-05-05",
+        "updatedAt": "2024-05-05"
+      },
+      "status": {
+        "id": "ca2c45ec-8473-4cc8-a245-a281852dde5a",
+        "name": "onboarding",
+        "createdAt": "2024-05-05",
+        "updatedAt": "2024-05-05"
+      }
+    }
+  ]
+}

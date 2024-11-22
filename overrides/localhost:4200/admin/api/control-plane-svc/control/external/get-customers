@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "name": "MassMutual",
+      "id": "abcdef-abcdef-abcdef-abcdef",
+      "createdAt": "2024-05-05",
+      "updatedAt": "2024-05-05"
+    },
+    {
+      "name": "RegiLife",
+      "id": "12345-12345-12345-12345",
+      "createdAt": "2024-05-05",
+      "updatedAt": "2024-05-05"
+    }
+  ]
+}

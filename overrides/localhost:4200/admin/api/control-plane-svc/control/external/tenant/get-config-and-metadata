@@ -1,0 +1,61 @@
+{
+  "data": {
+    "branding": {
+      "name": "Branding",
+      "description": "Customize overall branding in the application such as logo, color scheme, & visual design.",
+      "subcategories": {
+        "navigation_bar": {
+          "name": "Navigation bar",
+          "items": {
+            "bar_color": {
+              "metadata": {
+                "type": "string",
+                "format": "color",
+                "name": "Bar color"
+              },
+              "value": "#154C79"
+            },
+            "bar_text_color": {
+              "metadata": {
+                "type": "string",
+                "format": "color",
+                "name": "Bar text color"
+              },
+              "value": "#FFFFFF"
+            },
+            "help_link": {
+              "metadata": {
+                "type": "boolean",
+                "name": "Help link"
+              },
+              "value": true
+            },
+            "logo_url": {
+              "metadata": {
+                "type": "string",
+                "format": "url",
+                "name": "Logo URL"
+              },
+              "value": "https://mcusercontent.com/c35b7694b6d39c1f9286c08f4/images/4308e943-b1f2-07ba-79b5-5cb567d59979.png"
+            },
+            "primary_btn_color": {
+              "metadata": {
+                "type": "string",
+                "format": "color",
+                "name": "Primary button color"
+              },
+              "value": "#154C79"
+            },
+            "product_name": {
+              "$metadata": {
+                "type": "string",
+                "name": "Product name"
+              },
+              "$value": "Product Name"
+            }
+          }
+        }
+      }
+    }
+  }
+}

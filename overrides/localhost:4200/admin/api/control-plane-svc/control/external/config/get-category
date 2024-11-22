@@ -1,0 +1,363 @@
+{
+  "data": [
+    {
+      "id": "0191c26e-759f-777a-9a3c-56ba099ecd1f",
+      "key": "branding",
+      "name": "Branding",
+      "description": "Customize overall branding in the application such as logo, color scheme, & visual design.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7866-777a-9a3c-b394355c2af0",
+          "categoryId": "0191c26e-759f-777a-9a3c-56ba099ecd1f",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-7dbb-777a-9a3d-06a85b7466e4",
+          "categoryId": "0191c26e-759f-777a-9a3c-56ba099ecd1f",
+          "key": "navigation_bar",
+          "name": "Navigation Bar",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-58897682d710",
+      "key": "datasets",
+      "name": "Datasets",
+      "description": "Defining lists of items / values.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-830d-777a-9a3d-509d24fa20b1",
+          "categoryId": "0191c26e-759f-777a-9a3c-58897682d710",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-625c0d065e87",
+      "key": "features",
+      "name": "Features",
+      "description": "Configuring features to be turned on/off for a customer such as setting a feature flag.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-78ef-777a-9a3c-ba3bf50fb9fb",
+          "categoryId": "0191c26e-759f-777a-9a3c-625c0d065e87",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-6c2804901036",
+      "key": "views",
+      "name": "Views",
+      "description": "Customize the views throughout the application plane such as filters, tabs, columns, & user group views.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7976-777a-9a3c-c63917505f56",
+          "categoryId": "0191c26e-759f-777a-9a3c-6c2804901036",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-7e42-777a-9a3d-0bbacf730bb4",
+          "categoryId": "0191c26e-759f-777a-9a3c-6c2804901036",
+          "key": "manager_view",
+          "name": "Manager View",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-7f53-777a-9a3d-1fb5caa57137",
+          "categoryId": "0191c26e-759f-777a-9a3c-6c2804901036",
+          "key": "queue_view",
+          "name": "Queue View",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-7fdf-777a-9a3d-2775bda0590f",
+          "categoryId": "0191c26e-759f-777a-9a3c-6c2804901036",
+          "key": "underwriter_view",
+          "name": "Underwriter View",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-8066-777a-9a3d-2e9e8b5c1e98",
+          "categoryId": "0191c26e-759f-777a-9a3c-6c2804901036",
+          "key": "case_manager_view",
+          "name": "Case Manager View",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-80ed-777a-9a3d-3426243bfd47",
+          "categoryId": "0191c26e-759f-777a-9a3c-6c2804901036",
+          "key": "underwriting_snippets",
+          "name": "Underwriting Snippets",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-700e00e0bf38",
+      "key": "custom_fields",
+      "name": "Custom Fields",
+      "description": "Ability to configure data properties.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-79fe-777a-9a3c-cae155f66b02",
+          "categoryId": "0191c26e-759f-777a-9a3c-700e00e0bf38",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-8174-777a-9a3d-3cdef7f09c55",
+          "categoryId": "0191c26e-759f-777a-9a3c-700e00e0bf38",
+          "key": "data_property_alias",
+          "name": "Data Property Alias",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-81ff-777a-9a3d-4779c883bb4b",
+          "categoryId": "0191c26e-759f-777a-9a3c-700e00e0bf38",
+          "key": "underwriting_risk_groups",
+          "name": "Underwriting Risk Groups",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-7e3938e33e98",
+      "key": "third_party_data_sources",
+      "name": "Third Party Data Sources",
+      "description": "Setting up external 3rd party data sources.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7a8b-777a-9a3c-d1979d0392a8",
+          "categoryId": "0191c26e-759f-777a-9a3c-7e3938e33e98",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-8394-777a-9a3d-5bf642dc6c46",
+          "categoryId": "0191c26e-759f-777a-9a3c-7e3938e33e98",
+          "key": "TX103",
+          "name": "TX103 Contracts",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-82359619380f",
+      "key": "product_specifications",
+      "name": "Product Specifications",
+      "description": "Configuring the attributes for a product.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7b12-777a-9a3c-d8c77e3458f1",
+          "categoryId": "0191c26e-759f-777a-9a3c-82359619380f",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-8286-777a-9a3d-49649661dcc3",
+          "categoryId": "0191c26e-759f-777a-9a3c-82359619380f",
+          "key": "product_one",
+          "name": "Product One",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-82353339380f",
+      "key": "rules",
+      "name": "Rules",
+      "description": "Manage rules to automate decisions about underwriting risk, validate data, or to generate skills and tasks",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7b12-777a-9a3c-d8c77e3458f1",
+          "categoryId": "0191c26e-759f-777a-9a3c-82359619380f",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        },
+        {
+          "id": "0191c26e-8286-777a-9a3d-49649661dcc3",
+          "categoryId": "0191c26e-759f-777a-9a3c-82359619380f",
+          "key": "product_one",
+          "name": "Product One",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-8e20c89c5cf8",
+      "key": "underwriting_rules_manager",
+      "name": "Underwriting Rules Manager",
+      "description": "Creating and building underwriting rules.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7b9a-777a-9a3c-e3056c4f9298",
+          "categoryId": "0191c26e-759f-777a-9a3c-8e20c89c5cf8",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-907143635e5a",
+      "key": "workflow",
+      "name": "Workflow",
+      "description": "Configuring and setting up events to trigger workflow activities.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7c20-777a-9a3c-ef7f99e6279e",
+          "categoryId": "0191c26e-759f-777a-9a3c-907143635e5a",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-9f33bfe56354",
+      "key": "document_service",
+      "name": "Document Service",
+      "description": "Defining document & storage types.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7ca8-777a-9a3c-f2c7d0f80f21",
+          "categoryId": "0191c26e-759f-777a-9a3c-9f33bfe56354",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-a72177dfe783",
+      "key": "tasks",
+      "name": "Tasks",
+      "description": "Defining followups and other tasks",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7eca-777a-9a3d-15304f543f89",
+          "categoryId": "0191c26e-759f-777a-9a3c-a72177dfe783",
+          "key": "followups",
+          "name": "Followups",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    },
+    {
+      "id": "0191c26e-759f-777a-9a3c-afe26aed110c",
+      "key": "entity_metadata",
+      "name": "Entity Metadata",
+      "description": "Configurable metadata for entity attributes, both core and custom.",
+      "createdAt": "2024-09-05T13:45:04.671Z",
+      "updatedAt": "2024-09-05T13:45:04.671Z",
+      "deletedAt": null,
+      "subcategories": [
+        {
+          "id": "0191c26e-7d34-777a-9a3c-ff29880ecb68",
+          "categoryId": "0191c26e-759f-777a-9a3c-afe26aed110c",
+          "key": "$default",
+          "name": "Default",
+          "createdAt": "2024-09-05T13:45:05.241Z",
+          "updatedAt": "2024-09-05T13:45:05.241Z",
+          "deletedAt": null
+        }
+      ]
+    }
+  ]
+}

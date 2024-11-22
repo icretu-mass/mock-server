@@ -73,6 +73,10 @@ module.exports = [
 
 						const userGroupRes = [userGroups.find((userGroup) => userGroupIds.includes(userGroup.id))]
 
+						if (!userGroupRes) {
+							res.status(404)
+						}
+
 						res.status(200)
 						res.send(userGroupRes)
 					}
@@ -101,7 +105,12 @@ module.exports = [
 						const createUserGroup = req.body
 
 						if (createUserGroup) {
-							userGroups.push({ ...createUserGroup, id: Math.max(...userGroups.map((a) => parseInt(a.id))) + 1 })
+							userGroups.push({
+								...createUserGroup,
+								id: (Math.max(...userGroups.map((a) => parseInt(a.id))) + 1).toString(),
+								createdAt: new Date(),
+								updatedAt: new Date()
+							})
 							res.status(200)
 							res.send(apiMutation)
 						} else {
@@ -130,7 +139,7 @@ module.exports = [
 						const userGroupIndex = userGroups.findIndex((user) => user.id === userGroupId)
 
 						if (updateUserGroup && userGroupId && userGroupIndex >= 0) {
-							userGroups[userGroupIndex] = { ...userGroups[userGroupIndex], ...updateUserGroup }
+							userGroups[userGroupIndex] = { ...userGroups[userGroupIndex], ...updateUserGroup, updatedAt: new Date() }
 							res.status(200)
 							res.send(apiMutation)
 						} else {
